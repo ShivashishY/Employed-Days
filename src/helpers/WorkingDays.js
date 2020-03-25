@@ -16,14 +16,30 @@ export function calculateWorkingDays(start, end, weekStart, weekEnd, holidays) {
     }
     // public holidays
     let publicHolidays = [
-        {name: 'New Years Day', date: '01-01-2019'},
-        {name: 'Good Friday' , date: '30-03-2019'},
-        {name: 'Easter Monday' , date: '02-04-2019'},
-        {name: 'Early May Bank Holiday' , date: '07-05-2019'},
-        {name: 'Spring Bank Holiday' , date: '28-05-2019'},
-        {name: 'Summer Bank Holiday' , date: '27-07-2019'},
-        {name: 'Christmas Day' , date: '25-12-2019'},
-        {name: 'Boxing Day' , date: '26-12-2019'}
+{name: 'Republic Day' , date: '26-01-2020'},
+{name: 'Maha Shi date: ratri' , date: '21-02-2020'},
+{name: 'Rangwali Holi' , date: '10-03-2020'},
+{name: 'Gudi Padwa	Likely' , date: '25-03-2020'},
+{name: 'Cheti Chand' , date: '26-03-2020'},
+{name: 'Rama Na date: ami' , date: '02-04-2020'},
+{name: 'Good Friday Fri' , date: '10-04-2020'},
+{name: 'Ambedkar Jayanti' , date: '14-04-2020'},
+{name: 'Maharashtra Day Fri' , date: '01-05-2020'},
+{name: ' date: esak Likely Thu' , date: '07-05-2020'},
+{name: 'Eid al Fitr Likely' , date: '23-05-2020'},
+{name: 'Eid al-Adha Likely' , date: '30-07-2020'},
+{name: 'Indian Independence Day Sat' , date: '15-08-2020'},
+{name: 'Ganesh Chaturthi Likely Sat' , date: '22-08-2020'},
+{name: 'Ashura	Likely' , date: '28–08-2020'},
+{name: 'Gandhi Jayanti	Fri' , date: '02-10-2020'},
+{name: 'Dussehra' , date: '25-10-2020'},
+{name: 'Prophets Birthday Likely' , date: '28–10-2020'},
+{name: 'Diwali	Sat' , date: '14-11-2020'},
+{name: 'Laxmi Pooja Sat' , date: '14-11-2020'},
+{name: 'Balipratipada Likely Sun' , date: '15-11-2020'},
+{name: 'Bhai Dooj Likely Mon' , date: '16-11-2020'},
+{name: 'Guru Nanak Gurpurab Likely Mon' , date: '30-11-2020'},
+{name: 'Christmas Day Fri' , date: '25-12-2020'}      
     ];
     if ( holidays != null ) {
         publicHolidays = holidays;
