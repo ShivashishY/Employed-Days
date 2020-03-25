@@ -1,12 +1,28 @@
 {
     "public-holidays" : { 
-        "New Years Day" : "01-01-2019",
-        "Good Friday" : "30-03-2019",
-        "Easter Monday" : "02-04-2019",
-        "Early May Bank Holiday" : "07-05-2019",
-        "Spring Bank Holiday" : "28-05-2019",
-        "Summer Bank Holiday" : "27-07-2019",
-        "Christmas Day" : "25-12-2019",
-        "Boxing Day" : "26-12-2019"
+        "Republic Day" : "26-01-2020",
+        "Maha Shivratri" : "21-02-2020",
+        "Rangwali Holi" : "10-03-2020",
+        "Gudi Padwa	Likely" : "25-03-2020",
+        "Cheti Chand" : "26-03-2020",
+        "Rama Navami" : "02-04-2020",
+        "Good Friday Fri" : "10-04-2020",
+        "Ambedkar Jayanti" : "14-04-2020",
+        "Maharashtra Day Fri" : "01-05-2020",
+        "Vesak Likely Thu" : "07-05-2020",
+        "Eid al Fitr Likely" : "23-05-2020",
+        "Eid al-Adha Likely" : "30-07-2020",
+        "Indian Independence Day Sat" : "15-08-2020",
+        "Ganesh Chaturthi Likely Sat" : "22-08-2020",
+        "Ashura	Likely" : "28–08-2020",
+        "Gandhi Jayanti	Fri" : "02-10-2020"
+        "Dussehra" : "25-10-2020",
+        "Prophets Birthday Likely" : "28–10-2020",
+        "Diwali	Sat" : "14-11-2020",
+        "Laxmi Pooja Sat" : "14-11-2020",
+        "Balipratipada Likely Sun" : "15-11-2020",
+        "Bhai Dooj Likely Mon" : "16 Nov, 2020",
+        "Guru Nanak Gurpurab Likely Mon" : "30-11-2020",
+        "Christmas Day Fri" : "25-12-2020"
     }
 }
