@@ -1,0 +1,47 @@
+.header-component {
+  padding: 20px; }
+  .header-component .title {
+    display: inline-block;
+    font-size: 5rem; }
+    @media (max-width: 767px) {
+      .header-component .title {
+        margin: 0 auto; } }
+  .header-component .logo {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: -2%;
+    transition: all .25s ease;
+    animation: App-logo-pulse infinite 10s ease both;
+    height: 80px; }
+    .header-component .logo:hover {
+      animation: App-logo-pulse-hover infinite 10s ease both; }
+    @media (max-width: 767px) {
+      .header-component .logo {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        height: 40px; } }
+
+@keyframes App-logo-pulse {
+  2% {
+    transform: rotate(15deg); }
+  4% {
+    transform: rotate(-10deg); }
+  6% {
+    transform: rotate(5deg); }
+  8% {
+    transform: rotate(-5deg); }
+  10% {
+    transform: rotate(0deg); } }
+
+@keyframes App-logo-pulse-hover {
+  2% {
+    transform: rotate(-15deg); }
+  4% {
+    transform: rotate(10deg); }
+  6% {
+    transform: rotate(-5deg); }
+  8% {
+    transform: rotate(5deg); }
+  10% {
+    transform: rotate(0deg); } }

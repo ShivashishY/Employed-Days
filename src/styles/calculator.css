@@ -1,0 +1,34 @@
+.calculator-component h2 {
+  display: block;
+  font-size: 4rem; }
+  .calculator-component h2 span {
+    font-size: 5rem; }
+    .calculator-component h2 span.total-days {
+      color: red; }
+    .calculator-component h2 span.working-days {
+      color: green; }
+
+.calculator-component .calculator-box {
+  float: right;
+  position: relative; }
+  .calculator-component .calculator-box .display-days {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+@media (max-width: 767px) {
+  .calculator-component h2 {
+    font-size: 2.5rem; }
+    .calculator-component h2 span {
+      font-size: 3rem; } }
+
+@media (max-width: 992px) {
+  .calculator-component .calculator-box {
+    float: none; } }
+
+.pie-component {
+  margin: 30px auto; }
+  .pie-component canvas {
+    max-width: 90vw;
+    max-height: 90vw; }

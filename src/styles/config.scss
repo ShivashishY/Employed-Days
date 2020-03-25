@@ -1,0 +1,78 @@
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2.5rem;
+}
+
+// input fields
+.inputs-box {
+    display: inline-block;
+    margin: 0 30px;
+}
+// dates controls
+.dates-component {
+    margin-bottom: 40px;
+    // inputs container
+    label {
+        display: block;
+        margin: 20px auto;
+    }
+    input {
+        display: block;
+        margin: 1px auto;
+        color: black;
+    }
+    .checkboxes {
+        label {
+            float: left;
+        }
+        ul {
+            margin: 0;
+            list-style: none;
+            float: left;
+        }
+    }
+
+}
+// holiday controls
+.holidays-component {
+    margin-bottom: 40px;
+    
+    .holiday-entries, .holiday-add {
+        ul {
+            margin: 0;
+            list-style: none;
+            li {
+                margin: 5px auto;
+                @media (max-width: 767px) {
+                    margin: 10px auto;                    
+                }
+            }
+        }
+        input {
+            text-align: center;
+        }
+    }
+
+    .holiday-entries {
+        button {
+            color: white;
+            border: 2px solid white;
+            background: red;
+            &:hover {                
+                color: darkmagenta;
+            }
+        }
+    }
+    .holiday-add {
+        button {
+            color: white;
+            border: 2px solid white;
+            background: #3459c9;
+            &:hover {                
+                color: blue;
+            }
+        }
+    }
+}

@@ -1,0 +1,142 @@
+@import url(./bootstrap.min.css);
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 16px; }
+  body .App {
+    text-align: center; }
+
+.header-component {
+  padding: 20px; }
+  .header-component .title {
+    display: inline-block;
+    font-size: 5rem; }
+    @media (max-width: 767px) {
+      .header-component .title {
+        margin: 0 auto; } }
+  .header-component .logo {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: -2%;
+    transition: all .25s ease;
+    animation: App-logo-pulse infinite 10s ease both;
+    height: 80px; }
+    .header-component .logo:hover {
+      animation: App-logo-pulse-hover infinite 10s ease both; }
+    @media (max-width: 767px) {
+      .header-component .logo {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        height: 40px; } }
+
+@keyframes App-logo-pulse {
+  2% {
+    transform: rotate(15deg); }
+  4% {
+    transform: rotate(-10deg); }
+  6% {
+    transform: rotate(5deg); }
+  8% {
+    transform: rotate(-5deg); }
+  10% {
+    transform: rotate(0deg); } }
+
+@keyframes App-logo-pulse-hover {
+  2% {
+    transform: rotate(-15deg); }
+  4% {
+    transform: rotate(10deg); }
+  6% {
+    transform: rotate(-5deg); }
+  8% {
+    transform: rotate(5deg); }
+  10% {
+    transform: rotate(0deg); } }
+
+h2 {
+  font-size: 3rem; }
+
+h3 {
+  font-size: 2.5rem; }
+
+.inputs-box {
+  display: inline-block;
+  margin: 0 30px; }
+
+.dates-component {
+  margin-bottom: 40px; }
+  .dates-component label {
+    display: block;
+    margin: 20px auto; }
+  .dates-component input {
+    display: block;
+    margin: 1px auto;
+    color: black; }
+  .dates-component .checkboxes label {
+    float: left; }
+  .dates-component .checkboxes ul {
+    margin: 0;
+    list-style: none;
+    float: left; }
+
+.holidays-component {
+  margin-bottom: 40px; }
+  .holidays-component .holiday-entries ul, .holidays-component .holiday-add ul {
+    margin: 0;
+    list-style: none; }
+    .holidays-component .holiday-entries ul li, .holidays-component .holiday-add ul li {
+      margin: 5px auto; }
+      @media (max-width: 767px) {
+        .holidays-component .holiday-entries ul li, .holidays-component .holiday-add ul li {
+          margin: 10px auto; } }
+  .holidays-component .holiday-entries input, .holidays-component .holiday-add input {
+    text-align: center; }
+  .holidays-component .holiday-entries button {
+    color: white;
+    border: 2px solid white;
+    background: red; }
+    .holidays-component .holiday-entries button:hover {
+      color: darkmagenta; }
+  .holidays-component .holiday-add button {
+    color: white;
+    border: 2px solid white;
+    background: #3459c9; }
+    .holidays-component .holiday-add button:hover {
+      color: blue; }
+
+.calculator-component h2 {
+  display: block;
+  font-size: 4rem; }
+  .calculator-component h2 span {
+    font-size: 5rem; }
+    .calculator-component h2 span.total-days {
+      color: red; }
+    .calculator-component h2 span.working-days {
+      color: green; }
+
+.calculator-component .calculator-box {
+  float: right;
+  position: relative; }
+  .calculator-component .calculator-box .display-days {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+@media (max-width: 767px) {
+  .calculator-component h2 {
+    font-size: 2.5rem; }
+    .calculator-component h2 span {
+      font-size: 3rem; } }
+
+@media (max-width: 992px) {
+  .calculator-component .calculator-box {
+    float: none; } }
+
+.pie-component {
+  margin: 30px auto; }
+  .pie-component canvas {
+    max-width: 90vw;
+    max-height: 90vw; }
